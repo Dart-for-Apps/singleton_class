@@ -1,0 +1,15 @@
+targets:
+  $default:
+    builders:
+      singleton_class_generator|singleton_class_annotation:
+        enabled: true
+
+builders:
+  singleton_class:
+    target: ":singleton_class_generator"
+    import: "package:singleton_class_generator/singleton_class_generator.dart"
+    builder_factories: ["singletonClassGenerator"]
+    build_extensions: { ".dart": [".singleton_class.g.part"] }
+    auto_apply: dependents
+    build_to: cache
+    applies_builders: ["source_gen|combining_builder"]
