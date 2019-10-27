@@ -5,7 +5,7 @@ author: Gihwan Oh <wurikiji@gmail.com>
 homepage: https://github.com/Dart-for-Apps/singleton_class
 repository: https://github.com/Dart-for-Apps/singleton_class
 documentation: https://github.com/Dart-for-Apps/singleton_class/blob/master/singleton_class_annotation/README.md
-issue_tracker: https://github.com/Dart-for-Apps/singletone_class/issues
+issue_tracker: https://github.com/Dart-for-Apps/singleton_class/issues
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
