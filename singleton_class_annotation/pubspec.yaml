@@ -1,6 +1,6 @@
 name: singleton_class_annotation
 description: A `@SingletoneClass` annotation indicating a class will be a singlton. `singleton_class_generator` package will generate a singleton class.
-version: 0.1.0
+version: 0.1.0+1
 author: Gihwan Oh <wurikiji@gmail.com>
 homepage: https://github.com/Dart-for-Apps/singleton_class
 repository: https://github.com/Dart-for-Apps/singleton_class
