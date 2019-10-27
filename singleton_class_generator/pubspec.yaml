@@ -1,22 +1,25 @@
 name: singleton_class_generator
 description: A class generator for `singleton_class_annotation`. Without this package `@SingletonClass` will not work.
 version: 0.1.0
-author:
-homepage:
+author: Gihwan Oh <wurikiji@gmail.com>
+homepage: https://github.com/Dart-for-Apps/singleton_class
+repository: https://github.com/Dart-for-Apps/singleton_class
+documentation: https://github.com/Dart-for-Apps/singleton_class/blob/master/singleton_class_generator/README.md
+issue_tracker: https://github.com/Dart-for-Apps/singletone_class/issues
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
-  build:
+  build: ^1.2.0
   source_gen: ^0.9.4+5
-  singleton_class_annotation:
-    path: ../singleton_class_annotation
+  analyzer: ^0.38.5
+  singleton_class_annotation: ^0.1.0
 
 dev_dependencies:
   build_test:
   build_runner:
-  test:
+  flutter_test:
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
